@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #202124;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    padding: 6px;
+}
+
+.conteudo-header {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.conteudo-header .gmail {
+    padding: 0px 15px;
+}
+
+.conteudo-header .gmail a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.conteudo-header .gmail:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.conteudo-header .imagens {
+    padding-right: 15px;
+}
+
+.conteudo-header .imagens a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.conteudo-header .imagens:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.conteudo-header .apps {
+    padding: 8px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-header .apps span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-header .apps a {
+    text-decoration: none;
+    color: #E4E4E5;
+}
+
+.conteudo-header .apps:hover {
+    background-color: #2F3034;
+    border-radius: 50%;
+}
+
+.conteudo-header .perfil {
+    padding: 8px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-header .perfil img {
+    width: 32px;
+    height: 32px;
+}
+
+.google {
+    height: 92px;
+    text-align: center;
+}
+
+.google img {
+    height: 92px;
+}
+
+.pesquisa {
+    height: 140px;
+    padding: 20px;
+}
+
+.search-bar {
+    height: 44px;
+    min-width: 320px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border: 1px solid #889d95ad;
+    border-radius: 30px;
+}
+
+.search-bar .search-icon {
+    padding: 0 14px;
+    color: #889D95;
+}
+
+.search-bar .search-icon:hover {
+    cursor: pointer;
+}
+
+.search-bar .search {
+    width: 100%;
+    height: 34px;
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.search-bar .audio-search {
+    padding: 0 14px;
+    color: #889D95;
+}
+
+.search-bar .audio-search:hover {
+    cursor: pointer;
+}
+
+.search-buttons {
+    height: 58px;
+    padding-top: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pesquisa-google,
+.estou-com-sorte {
+    padding: 0 16px;
+    margin: 11px 4px;
+    height: 36px;
+    border: none;
+    border-radius: 4px;
+    background-color: #303134;
+    color: #FFF;
+}
+
+footer {
+    height: 94px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #171717;
+}
+
+.pais {
+    color: #FFF;
+}
+
+.pais p {
+    width: 100%;
+    padding: 15px 30px;
+    font-size: 15px;
+    color: #889D95;
+    border-bottom: 1px solid #889d9552;
+}
+
+nav {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 15px;
+    font-size: 14px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #889D95;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
