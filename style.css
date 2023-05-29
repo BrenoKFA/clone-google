@@ -98,6 +98,7 @@ body {
 .google {
     height: 92px;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .google img {
@@ -111,8 +112,7 @@ body {
 
 .search-bar {
     height: 44px;
-    min-width: 320px;
-    width: 600px;
+    max-width: 600px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -135,6 +135,7 @@ body {
     height: 34px;
     background-color: transparent;
     border: none;
+    outline: none;
     color: #FFF;
     font-size: 16px;
 }
